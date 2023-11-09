@@ -1,0 +1,22 @@
+{
+  "name": "number-to-bdt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^4.3.0",
+    "rollup-plugin-delete": "^2.0.0"
+  },
+  "engines": {
+    "node": "16.18.0"
+  }
+}
